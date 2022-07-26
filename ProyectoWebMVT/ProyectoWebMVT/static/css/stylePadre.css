@@ -1,0 +1,339 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.superior__inicio{
+	background-color: #E2B142;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
+.menu__todo{
+	position: absolute;
+	top: 10px;
+	left: 15%;
+	width: 50%;
+}
+.item__menu{
+	list-style: none;
+	float: left;
+	margin-right: 2%;
+}
+.link__menu{
+	text-decoration: none;
+	color: white;
+
+}
+.link__menu:hover{
+	color: green;
+}
+.verde{
+	color: rgba(13, 21, 130, 0.558);
+}
+.derecho{
+	position: absolute;
+	right: 2%;
+	top: 10px;
+	width: 10%;
+
+}
+.contacto{
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	position: relative;
+	right: -45%;
+}
+.bi-phone-vibrate{
+	color: black;
+	margin-right: 4%;	
+}
+.banner{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	z-index: -1;
+}
+.img__banner{
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+    width: 100%;
+	z-index: -1;
+    position: absolute;
+}
+.redes__sociales{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	position: fixed;
+}
+.cuadro__social{
+	width: 40px;
+	height: 40px;
+	/*border: 2px solid red;*/
+}
+.bi-facebook,.bi-instagram,.bi-twitter{
+	font-size: 1.5em;
+	position: relative;
+	left: 5px;
+}
+.title{
+	font-size: 2.9em;
+	width: 45%;
+	margin: auto;
+	position: relative;
+	top: 40%;
+	text-align: center;
+}
+.title__texto{
+	font-size: 1.1em;
+	width: 50%;
+	margin: auto;
+	position: relative;
+	top: 40%;
+	color: rgb(3, 9, 175);
+	text-align: justify;
+}
+.container-transporte{
+	width: 100%;
+	text-align: center;
+}
+.cuadro{
+	display: inline-block;
+	width: 25%;
+	text-align: justify;
+	position: relative;
+	top: -50px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 2px 1px 10px 1px grey;
+	
+}
+.bi-truck{
+	color: red;
+	text-align: center;
+	
+	margin-left: 170px;
+}
+.title__cuadros{
+	margin: 20px 0;
+	text-align: center;
+}
+.txt__cuadro{
+	margin: 40px 0;
+	text-align: center;
+}
+
+.about{
+	width: 100%;
+	text-align: center;
+
+}
+
+.icon__about{
+	font-size: 1.5em;
+	color: #ae2012;
+	width: 100%;
+}
+/*
+.icon__about:hover{
+	font-size: 1.5em;
+	color: #ae2012;
+	border-radius: 50%;
+	background-color: skyblue;
+	width: 100%;
+}*/
+.title__about{
+	text-align: center;
+	font-size: 1.9em;
+	color: rgb(3, 9, 175);
+}
+.cuadro__about{
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+}
+.texto__number{
+	margin: 20px;
+	color: skyblue;
+	font-size: 1.4em;
+
+}
+.title__cuadrAbout{
+	color: #ae2012;
+}
+.servicios{
+	margin: 50px;
+	text-align: center;
+}
+.title__servicios{
+	color: rgb(24, 9, 185);
+	font-size: 1.9em;
+	margin-bottom: 15px;
+}
+.servicios__izquierda{
+	display: inline-block;
+	width: 40%;
+
+}
+.title__izquierda{
+	text-align: justify;
+	margin-bottom: 15px;
+}
+.txt__servicios{
+	text-align: left;
+	margin: 15px 0;
+}
+.lista{
+	list-style: none;
+	text-align: left;
+}
+.lista__item{
+	margin: 15px 0;
+}
+.img__servicioderecho{
+    display: inline-block;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 240px;
+}
+.servicios__derecho{
+	display: inline-block;
+	background-image: url(pexels-mike-193667.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40%;
+	height: 240px;
+}
+
+.title__personal-principal{
+	font-size: 1.9em;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	color: white;
+	margin-bottom: 25px;
+}
+.title__personal{
+	color: white;
+}
+.container-personal{
+	text-align: center;
+}
+.img__personal{
+	width: 50%;
+	margin: 20px;
+}
+.cuadro__personal{
+	width: 20%;
+	display: inline-block;
+	box-shadow: 2px 2px 2px grey;
+	/*transform: translateX(-50%) translateY(-50%) ;
+	position: relative;
+	top: 150px;
+	left: 150px;*/
+}
+.img__banner_personal{
+    position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+    width: 100%;
+	z-index: -1;
+}
+.banner__personal{
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	z-index: -1;
+}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;  
+	color: black;
+	padding: 35px 0;
+}
+.primero__footer{
+	height: 20%;
+
+	color: black;
+}
+.item__redes{
+	list-style: none;
+	color: black;
+	font-size: 20px;
+}
+.link__redes{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+}
+
+/*fomrulario contacto*/
+.container-principal{
+	width: 60%;
+
+	margin: 0 auto;
+}
+.title__contacto{
+	text-align: center;
+	margin: 20px;	
+
+
+}
+.txt_formu{
+	
+	width: 100%;
+	text-align: center;
+	margin-left: 150px;
+}
+.cuadro_formu{
+	width: 60%;
+	height: 25px;
+	border-radius: 3px;
+	border: none;
+	border-right:  1px solid black;
+	border-bottom: 1px solid black;
+	margin-left:150px ;
+}
+
+.cuadro_txtformu{
+	margin: 20px;
+
+}
+.enviar{
+	width: 20%;
+	margin: 0 auto;
+	
+}
+.boton_enviar{
+	
+	background-color: skyblue;
+	width: 100%;
+		border: none;
+		height: 35px;
+		border-radius: 5px;
+
+
+}
+.boton_enviar:hover{
+	transition: 1.5s;
+	opacity: 0.8;
+
+}

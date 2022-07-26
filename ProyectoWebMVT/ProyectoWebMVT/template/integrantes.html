@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block content %} 
+
+
+<h1>INTEGREANTES</h1>
+<ul>
+    {%for i in integrantes%}
+    
+        <li>{{i}}</li>
+    
+    {%endfor%}
+</ul>
+
+{% endblock %}

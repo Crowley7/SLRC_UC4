@@ -1,0 +1,218 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='{% static "css/stylePadre.css" %}' rel='stylesheet'/> 
+    <title></title>
+</head>
+<body>
+    <header class="container-header">
+		<div class="superior__inicio">
+			<h1 ><a href="/index" class="logo">Transporte</a></h1>
+			<div class="menu__todo">
+				<nav class="container-menu">
+				<ul class="menu">
+					<li class="item__menu"><a href="/integrantes" class="link__menu"><span class="verde">Integrantes</span></a></li>
+					<li class="item__menu"><a href="/saludo" class="link__menu">Saludo </a></li>
+
+				</ul>
+			</nav>
+			</div>
+			<div class="derecho">
+				
+				<a href="" class="contacto"><i class="bi bi-phone-vibrate"></i>254-7856</a>
+			</div>
+		</div>
+	</header>
+	<div class="banner">
+        <img class="img__banner" src='{% static "imagenes/pexels-mike-193667.jpg" %}'/>
+		<h2 class="title">Transportes Peru</h2>
+		<p class="title__texto">Ofrecemos el traslado de mercadería bajo temperatura controlada, carga regular, sobredimensionada y carga peligrosa hacia un terminal portuario o a cualquier punto del país.</p>
+		<div class="redes__sociales">
+			<div class="cuadro__social facebook"><a href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook"></a></i></div>
+			<div class="cuadro__social instagram"><a href=""><i class="bi bi-instagram"></a></i></div> 
+			<div class="cuadro__social twiter"><a href=""><i class="bi bi-twitter"></a></i></div>
+		</div>
+	</div>
+    {% block content %}
+    <section class="container-transporte">
+		<div class="cuadro">
+			<i class="bi bi-truck"></i>
+			<h3 class="title__cuadros">TRANSPORTE POR CARRETERA</h3>
+			<p class="txt__cuadro">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+			</p>
+		</div>
+		<div class="cuadro">
+			<i class="bi bi-truck"></i>
+			<h3 class="title__cuadros">TRANSPORTE POR CIUDAD</h3>
+			<p class="txt__cuadro">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+			</p>
+		</div>
+		<div class="cuadro">
+			<i class="bi bi-truck"></i>
+			<h3 class="title__cuadros">TRANSPORTE PEQUEÑO</h3>
+			<p class="txt__cuadro">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+			</p>
+		</div>
+	</section>
+	<section class="about">
+		<h2 class="title__about">Nosotros</h2>
+		<div class="cuadro__about">
+			<i class="bi bi-check-circle-fill icon__about"></i>
+			<p class="texto__number">4</p>
+			<p class="title__cuadrAbout">PROYECTOS REALIZADOS</p>
+		</div>
+		<div class="cuadro__about">
+			<i class="bi bi-people-fill icon__about"></i>
+			<p class="texto__number">4</p>
+			<p class="title__cuadrAbout">PERSONAL DE TRABAJO</p>
+			
+		</div>
+		<div class="cuadro__about">
+			<i class="bi bi-check-circle-fill icon__about"></i>
+			<p class="texto__number">4</p>
+			<p class="title__cuadrAbout">UNIDADES CON GPS</p>
+		</div>
+		<div class="cuadro__about">
+			<i class="bi bi-trophy icon__about"></i>
+			<p class="texto__number">4</p>
+			<p class="title__cuadrAbout">PREMIOS</p>
+		</div>
+
+	</section>
+	<section class="servicios">
+		<h2 class="title__servicios">Acerca de</h2>
+		<div class="servicios__izquierda">
+			<h3 class="title__izquierda">Unas palabras de nuestra logistica</h3>
+			<p class="txt__servicios">
+				Desde 1939, somos el operador logístico líder del Perú con más de 7,000 colaboradores altamente capacitados y especializados para atender los requerimientos específicos de nuestros clientes en cada sector económico, convirtiéndonos en socios estratégicos en la logística de nuestros clientes.
+
+Identificamos los costos totales de su actividad logística, simplificamos las operaciones y optimizamos los recursos, mejorando la eficiencia de la cadena de abastecimiento lo que les permite concentrarse en el core del negocio.
+			</p>
+			<ul class="lista">
+				<li class="lista__item"><i class="bi bi-check-all"></i>100% satisfaccion</li>
+				<li class="lista__item"><i class="bi bi-check-all"></i>Calidad de servicio</li>
+				<li class="lista__item"><i class="bi bi-check-all"></i>Localizacion para todos</li>
+				<li class="lista__item"><i class="bi bi-check-all"></i>Modernos vehiculos para el taller</li>
+			</ul>
+			
+		</div>
+		<div class="servicios__derecho">
+			<img class="img__servicioderecho" src='{% static "imagenes/pexels-mike-193667.jpg" %}'/>
+		</div>
+	</section>
+
+	<div class="banner__personal">
+        <img class=" img__banner_personal" src='{% static "imagenes/pexels-scott-webb-136739.jpg" %}'/>
+		<section class="personal">
+			<h2 class="title__personal-principal">Nuestro personal</h2>		
+		<div class="container-personal">
+			<div class="cuadro__personal">
+				<img  src='{% static "imagenes/pexels-andrea-piacquadio-774909.jpg" %}'class="img__personal" />
+				<h3 class="title__personal">Alejandra Seminario</h3>
+
+			</div>
+			<div class="cuadro__personal">
+				<img  src='{% static "imagenes/pexels-max-fischer-5212317.jpg" %}' class="img__personal">
+				<h3 class="title__personal">Tatiana Romero</h3>
+
+			</div>
+			<div class="cuadro__personal">
+				<img  src='{% static "imagenes/pexels-yan-krukov-8617730.jpg" %}' class="img__personal">
+				<h3 class="title__personal">Julian Torres</h3>
+
+			</div>
+		</div>
+		</section>
+	</div>
+
+	<section class="container-principal">
+		<h1 class="title__contacto">CONTACTANOS</h1>
+		<div class="container-formulario">
+			<form class="formulario">
+				<div class="cuadro_txtformu">
+					<label for="nombre" class="txt_formu">Nombre</label></br>
+				<input type="text" class="form-control cuadro_formu" placeholder="Digite nombre" id="nombre"></br>
+
+				</div>
+
+				<div class="cuadro_txtformu">
+				<label for="correo" class="txt_formu">Correo</label></br>
+				<input type="email" class="form-control cuadro_formu" placeholder="Email" id="correo"></br>
+				</div>
+
+
+				<div class="cuadro_txtformu">
+					<label for="departamento" class="txt_formu">Departamento</label></br>
+				<input type="email" class="form-control cuadro_formu" placeholder="Digite departemento" id="departamento"></br>
+
+				</div>
+
+				<div class="enviar">
+			
+					<button type="button" class="boton_enviar">Enviar</button>
+
+				</div>
+			</form>
+		</div>
+	</section>
+
+
+    {% endblock %}
+
+
+
+
+
+
+    <footer class="container-footer">
+			
+        <div class="footer">
+            
+            <div class="primero__footer">
+                <h2 class="title__footer">Contacto social
+                    <hr/>
+                <ul>
+                    <li class="item__redes">Facebook: <a href="" class="link__redes">Transporte Perú</a></li>
+                    <li class="item__redes">Instagram: <a href="" class="link__redes">Transporte Perú</a></li>
+                    <li class="item__redes">Twiter: <a href="" class="link__redes">Transporte Perú</a></li>
+                </ul>
+                </h2>
+            </div>
+            <div class="primero__footer">
+                <h2 class="title__footer">Ayuda y soporte
+                
+                <hr/>
+                <ul>
+                    <li class="item__redes"><a href="" class="link__redes">pagos</a></li>
+                    <li class="item__redes"><a href="" class="link__redes">Envias</a></li>
+                    <li class="item__redes"><a href="" class="link__redes">Politica de privacidad</a></li>
+                </ul>
+                </h2>
+                
+            </div>
+            <div class="primero__footer">
+                <h2 class="title__footer">Estamos aqui
+                    <hr/>
+                    <ul>
+                    <li class="item__redes"><a href="" class="link__redes">Santa anita</a></li>
+                    <li class="item__redes"><a href="" class="link__redes">+51 987542315</a></li>
+                    <li class="item__redes"><a href="" class="link__redes">transportePerú@gmail.com</a></li>
+                </ul>
+                </h2>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
